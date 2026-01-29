@@ -1,0 +1,6 @@
+#exercise 2 (shopping cart program)
+item = input("Enter the item: ")
+price = float(input("Enter the price of the item: "))
+quantity = int(input("Enter the quantity of the item: "))
+total_price = price * quantity
+print(f"The total price is {total_price}")
