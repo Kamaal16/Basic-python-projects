@@ -1,0 +1,21 @@
+
+sub_1 = int(input("Enter Your Grade in Subject 1: "))
+cr_1 = int(input("Enter The credits for the subject: "))
+
+sub_2 = int(input("Enter Your Grade in Subject 2: "))
+cr_2= int(input("Enter The credits for the subject: "))
+
+sub_3 = int(input("Enter Your Grade in Subject 3: "))
+cr_3 = int(input("Enter The credits for the subject: "))
+
+sub_4 = int(input("Enter Your Grade in Subject 4: "))
+cr_4 = int(input("Enter The credits for the subject: "))
+
+sub_5 = int(input("Enter Your Grade in Subject 5: "))
+cr_5 = int(input("Enter The credits for the subject: "))
+
+
+total_cr = cr_1 + cr_2 + cr_3 + cr_4 + cr_5
+cgpa = ((sub_1 * cr_1)+(sub_2 * cr_2)+(sub_3 * cr_3)+(sub_4 * cr_4)+(sub_5 * cr_5))/total_cr
+
+print(f'Your Current semester CGPA is: {cgpa}')
